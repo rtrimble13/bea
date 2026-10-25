@@ -8,6 +8,8 @@ Releases are cut by the **Bump version** GitHub Actions workflow, which moves th
 *Unreleased* section below under the new version heading.
 
 ## [Unreleased]
+
+## [0.1.0] - 2026-10-25
 ### Added
 
 - `bea data` / `bea latest`: fetch observations from any BEA dataset (NIPA,
