@@ -8,6 +8,8 @@ Releases are cut by the **Bump version** GitHub Actions workflow, which moves th
 *Unreleased* section below under the new version heading.
 
 ## [Unreleased]
+
+## [0.1.0] - 2026-10-25
 ### Added
 
 - `bea data` / `bea latest`: fetch observations from any BEA dataset (NIPA,
@@ -25,3 +27,10 @@ Releases are cut by the **Bump version** GitHub Actions workflow, which moves th
 - Python API (`bea.BEAClient`) with retries, per-table requests and typed
   models.
 - Documentation, ADRs, examples, GitHub Actions CI and tag-driven releases.
+- `docs/practitioners-guide.md`: what `bea` can answer and how; a research
+  workflow, table discovery tactics, analysis recipes (GDP growth and
+  contributions, PCE inflation, income and saving, industries, states and
+  counties, trade and the investment position, monitoring), guidance on
+  reading BEA data (annual rates, chained dollars, units, vintages, release
+  lags), an agent protocol and a question playbook. Linked from the README,
+  the agent contract and the example skill.

@@ -66,3 +66,11 @@ bea latest NIPA -t T10101 -F Q --format json             # rows for every line o
 Report `period`, `value` and `unit` for `series_id` `A191RL` (Gross domestic
 product) and `DPCERL` (Personal consumption expenditures). Quarterly NIPA
 growth rates are seasonally adjusted annual rates.
+
+## Reference
+
+For anything beyond a single lookup (growth versus levels, contributions,
+PCE inflation arithmetic, state rankings, revisions and release lags, the
+answer template), follow
+[`docs/practitioners-guide.md`](../../docs/practitioners-guide.md), especially
+section 7 (agent protocol) and section 8 (question playbook).

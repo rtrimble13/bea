@@ -121,3 +121,6 @@ See [output-formats.md](output-formats.md) for the wide layout and Parquet types
 
 [`examples/skill/SKILL.md`](../examples/skill/SKILL.md) packages these rules as
 a skill for Claude Code / Agent SDK style workflows.
+[practitioners-guide.md](practitioners-guide.md) is the judgment layer on top
+of this contract: choosing tables and lines, annual rates and chained dollars,
+revisions and release lags, and reporting answers with sources.

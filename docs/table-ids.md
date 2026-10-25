@@ -22,7 +22,9 @@ county personal income and GDP; GDP by industry; ITA balances; IIP
 positions). Every hit carries a `command` column with a ready-to-run `bea
 data` invocation. The catalog is deliberately small and hand-checked; it is
 not the universe of BEA tables. Contributions to `src/bea/data/catalog.json`
-are welcome.
+are welcome; see [development.md](development.md#adding-a-table-to-the-curated-catalog).
+[practitioners-guide.md](practitioners-guide.md) shows how these discovery
+commands fit into a research workflow.
 
 ## 2. Every table of a dataset: `bea tables list`
 
