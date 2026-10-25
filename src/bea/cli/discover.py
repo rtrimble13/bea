@@ -345,7 +345,9 @@ def register(app: typer.Typer) -> None:
     def tables_show(
         ctx: typer.Context,
         dataset: DATASET_POS,
-        table: Annotated[str, typer.Argument(help="Table, e.g. T10101 or SAINC1.")],
+        table: Annotated[
+            str, typer.Argument(help="Table, e.g. T10101 or SAINC1.", metavar="TABLE")
+        ],
         fmt: FORMAT_OPT = None,
         output: OUTPUT_OPT = None,
         columns: COLUMNS_OPT = None,
@@ -432,7 +434,11 @@ def register(app: typer.Typer) -> None:
         ctx: typer.Context,
         dataset: DATASET_POS,
         parameter: Annotated[
-            str, typer.Argument(help="Parameter name, e.g. TableName, LineCode, GeoFips, Year.")
+            str,
+            typer.Argument(
+                help="Parameter name, e.g. TableName, LineCode, GeoFips, Year.",
+                metavar="PARAMETER",
+            ),
         ],
         query: QUERY_OPT = None,
         filters: Annotated[
